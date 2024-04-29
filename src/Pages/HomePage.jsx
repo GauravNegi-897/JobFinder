@@ -10,7 +10,7 @@ const HomaPage = () => {
     <>
       <Hero/>
       <HomeCards/>
-      <JobListings/>
+      <JobListings isHome ={true}/>
       <ViewAlljobs/>
     </>
   )
